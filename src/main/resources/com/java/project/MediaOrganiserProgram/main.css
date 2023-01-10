@@ -1,0 +1,116 @@
+
+#nav_layout {
+	-fx-background-color: #ffffff;
+}
+
+#content_layout {
+	-fx-background-color: #edeffc;
+}
+
+#sidebar_layout{
+	-fx-background-color: #FFFFFF;
+}
+
+
+/* nav styles */
+
+
+#home, #playlist, #recent, #settings {
+	-fx-background-color: transparent;
+	-fx-margin:0px;
+	
+
+	
+}
+
+#home:hover, #playlist:hover, #recent:hover, #settings:hover {
+    -fx-border-color:blue;
+    -fx-border-width: 0 6 0 0;
+}
+
+
+
+#title{
+	-fx-padding: 15px;
+	-fx-font-size: 30px;
+	-fx-font-weight: bold;
+	-fx-text-background-color: #3756A6;
+}
+
+/*Playlist styles */
+#playlist_layout {
+	-fx-background-color: white;
+	-fx-padding: 30px;
+}
+
+
+/*sidebar styles */
+
+#import_file_button {
+	-fx-background-color: #7694FF;
+	-fx-text-fill: white;
+	-fx-font-size: 20px;
+	-fx-effect: dropshadow(three-pass-box, rgba(208, 230, 255, 0.8), 10, 0, 5, 5);
+}
+#export_button {
+	-fx-text-fill: #7694FF;
+	-fx-background-color: white;
+	-fx-font-size: 20px;
+	-fx-effect: dropshadow(three-pass-box, rgba(208, 230, 255, 0.8), 10, 0, 5, 5);
+}
+#delete_button, #cancel{
+	-fx-text-fill: red;
+	-fx-background-color: white;
+	-fx-font-size: 20px;
+	-fx-effect: dropshadow(three-pass-box, rgba(208, 230, 255, 0.8), 10, 0, 5, 5);
+}
+
+#import_button, #fileOnlyButton, #directoryOnlyButton {
+	-fx-text-fill: black;
+	-fx-background-color: white;
+	-fx-font-size: 20px;
+	-fx-effect: dropshadow(three-pass-box, rgba(208, 230, 255, 0.8), 10, 0, 5, 5);
+}
+#create_button, #ok {
+	-fx-text-fill: black;
+	-fx-background-color: white;
+	-fx-font-size: 20px;
+	-fx-effect: dropshadow(three-pass-box, rgba(208, 230, 255, 0.8), 10, 0, 5, 5);
+}
+
+/* Home view stylea */
+#favourite_text, #recent_text, #playlist_text {
+	-fx-text-fill: black;
+	-fx-font-size: 2em;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: transparent; /*or whatever you want*/
+  }
+
+.scroll-pane {
+    -fx-background-color:transparent;
+}
+
+/* playlist object style */
+#playlist_title {
+	-fx-font-size: 20px;
+	-fx-padding: 10px 0px 10px 0px;
+}
+
+#playlist_file_count {
+	-fx-font-size: 14px;
+	-fx-text-fill: grey;
+}
+
+/*Create playlist gui (UserInput())*/
+#error{
+	-fx-text-fill: red;
+	-fx-font-size: 17px;
+}
+
+/*Media view style */
+#media_view_name, #media_view_type, #media_view_location {
+	-fx-font-size: 20px;
+	-fx-font-weight: bold;
+}
